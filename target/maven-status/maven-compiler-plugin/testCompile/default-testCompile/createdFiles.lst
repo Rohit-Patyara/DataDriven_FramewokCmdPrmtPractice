@@ -1,0 +1,8 @@
+commonFunctions\AdminLoginPage.class
+driverFactory\AppTest.class
+utilities\ExcelFileUtil.class
+commonFunctions\AddSupplierPage.class
+commonFunctions\AdminLogoutPage.class
+commonFunctions\AddCustomerPage.class
+config\AppUtil.class
+driverFactory\AppTestSupplierModule.class
