@@ -82,7 +82,7 @@ public class AddSupplierPage {
 		// act.moveToElement(objAddBtn).click().perform();
 		objAddBtn.sendKeys(Keys.ENTER);
 		objConfirmOkBtn.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		objAlertOkBtn.sendKeys(Keys.ENTER);
 		if (!objSearchTextBox.isDisplayed())
 			objSearchpanel.click();

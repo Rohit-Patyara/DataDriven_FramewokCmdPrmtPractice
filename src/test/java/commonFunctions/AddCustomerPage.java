@@ -77,7 +77,7 @@ public class AddCustomerPage {
 		objNotes.sendKeys(notes);
 		act.moveToElement(objAddButton).click().perform();
 		objConfirmOkBtn.click();
-		//Thread.sleep(2000);
+		Thread.sleep(1000);
 		objAlertOkBtn.click();
 		if (!objSearchTextBox.isDisplayed())
 			objSearchpanel.click();
