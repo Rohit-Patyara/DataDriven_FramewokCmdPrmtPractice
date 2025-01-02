@@ -48,7 +48,7 @@ public class AppTestSupplierModule extends AppUtil {
 				xl.setCelldata(sTestData, i, 9, "Pass", outputPath);
 				logger.log(LogStatus.PASS, "Add Supplier is Success");
 			} else {
-				// if result is true write as fail in sTestData cell
+				// if result is false write as fail in sTestData cell
 				xl.setCelldata(sTestData, i, 9, "Fail", outputPath);
 				logger.log(LogStatus.FAIL, "Add Supplier is Failure");
 			}

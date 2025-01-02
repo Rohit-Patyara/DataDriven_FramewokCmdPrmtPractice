@@ -10,6 +10,13 @@
           <include name="addCustomer"/>
         </methods>
       </class> <!-- driverFactory.AppTest -->
+      <class name="driverFactory.AppTestSupplierModule">
+        <methods>
+          <include name="addCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- driverFactory.AppTestSupplierModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
